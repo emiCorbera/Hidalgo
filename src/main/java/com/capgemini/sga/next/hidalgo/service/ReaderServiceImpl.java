@@ -15,23 +15,17 @@ public class ReaderServiceImpl implements ReaderService {
 
     @Override
     public void printSentence() {
-        /*
-        TODO
-         Create so many methods as needed with the pattern 'printORDINAL-NUMER_YOUR-NAME()',
-         ex. printFirstSentenceEmiliano(), printSecondSentenceEmiliano()
-
         printFirstSentenceEmiliano();
-        printSecondSentenceEmiliano()
-
-        private void printFirstSentenceEmiliano(){
-            log.info(Sentences.SENTENCE_1);
-        }
-
-        private void printSecondSentenceEmiliano(){
-            log.info(Sentences.SENTENCE_5);
-        }
-
-         */
+        printSecondSentenceEmiliano();
     }
+
+    private void printFirstSentenceEmiliano() {
+        log.info(Sentences.SENTENCE_1);
+    }
+
+    private void printSecondSentenceEmiliano() {
+        log.info(Sentences.SENTENCE_5);
+    }
+
 
 }
